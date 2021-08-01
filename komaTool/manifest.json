@@ -1,0 +1,17 @@
+{
+  "name": "Koma Tool",
+  "description": "show alert when you using Production environment.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": [ "https://developer.chrome.com/*"],
+      "css": ["myStyles.css"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
