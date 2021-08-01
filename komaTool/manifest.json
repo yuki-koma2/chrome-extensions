@@ -1,14 +1,19 @@
 {
   "name": "Koma Tool",
   "description": "show alert when you using Production environment.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "permissions": ["storage"],
   "content_scripts": [
     {
       "matches": [ "https://developer.chrome.com/*"],
-      "css": ["myStyles.css"],
-      "js": ["contentScript.js"]
+      "css": ["production/myStyles.css"],
+      "js": ["production/contentScript.js"]
+    },
+    {
+      "matches": [ "https://developer.mozilla.org/*"],
+      "css": ["development/devEnv.css"],
+      "js": ["development/devEnv.js"]
     }
   ],
   "action": {

@@ -1,0 +1,23 @@
+.dev-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+    align-content:space-around;
+}
+
+.back-ground-text {
+    padding: 5rem;
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    color: rgba(33, 33, 33, 0.3);
+    font-weight: bold;
+    z-index: -100;
+    cursor: none;
+}
