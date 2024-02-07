@@ -1,7 +1,7 @@
 {
   "name": "Koma freee",
-  "description": "freeeの勤怠画面を少し便利にします",
-  "version": "1.0.3",
+  "description": "freeeの勤怠画面を少し便利にします。気が向いたらアップデートします",
+  "version": "1.1.0",
   "manifest_version": 3,
   "permissions": [
     "scripting",
