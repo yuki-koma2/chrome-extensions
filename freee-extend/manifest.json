@@ -1,0 +1,15 @@
+{
+  "name": "Koma freee",
+  "description": "freeeの勤怠画面での作業時間を計算します。",
+  "version": "1.0.3",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://p.secure.freee.co.jp/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
